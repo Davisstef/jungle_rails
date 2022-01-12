@@ -1,2 +1,18 @@
-<h1>Admin::Dashboard#show</h1>
-<p>Find me in app/views/admin/dashboard/show.html.erb</p>
+<h1>Store Status</h1>
+
+ <table class="table table-striped">
+   <tr>
+       <th scope="col" class="danger text-center status">
+         <%= link_to 'Product Count', controller: 'admin/products' %>
+       </th>
+       <th scope="col" class="info text-center status">
+         <%= link_to 'Category Count', controller: 'admin/products' %>
+       </th>
+   </tr>
+   <tbody>
+     <tr>
+       <td class="success text-center status"><%= @product_count %></td>
+       <td class="warning text-center status"><%= @category_count %></td>
+     </tr>
+   </tbody>
+ </table>
