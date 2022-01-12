@@ -15,3 +15,27 @@ body {
 form.button_to {
   display: inline;
 }
+
+.table-striped{
+  margin-top: 50px;
+}
+
+.danger.text-center.status {
+  padding: 30px;
+  font-size: 2em;
+}
+
+.info.text-center.status {
+  padding: 30px;
+  font-size: 2em;
+}
+
+.success.text-center.status{
+  padding: 30px;
+  font-size: 1.5em;
+}
+
+.warning.text-center.status{
+  padding: 30px;
+  font-size: 1.5em;
+}
