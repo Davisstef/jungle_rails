@@ -1,0 +1,18 @@
+<h1>Admin &raquo; All Categories</h1>
+
+ <div class="well">
+     <%= link_to '+ New Category', [:new, :admin, :category], class: 'btn btn-info' %>
+ </div>
+
+  <table class="table table-bordered">
+       <thead>
+         <tr>
+          <th colspan="2" class="text-center">Categories</th>
+        </tr>
+      </thead>
+      <tbody>
+        <% @categories.each do |item| %>
+          <%= render 'category', category: item[:name] %>
+        <% end %>
+      </tbody>
+    </table>
