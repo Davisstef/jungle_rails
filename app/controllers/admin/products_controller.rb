@@ -12,7 +12,6 @@ class Admin::ProductsController < ApplicationController
 
   def create
     @product = Product.new(product_params)
-
     if @product.save
       redirect_to [:admin, :products], notice: 'Product created!'
     else
@@ -25,7 +24,7 @@ class Admin::ProductsController < ApplicationController
     @product.destroy
     redirect_to [:admin, :products], notice: 'Product deleted!'
   end
-
+  
   private
 
   def product_params
@@ -38,5 +37,4 @@ class Admin::ProductsController < ApplicationController
       :price
     )
   end
-
 end
