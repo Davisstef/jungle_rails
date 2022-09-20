@@ -2,6 +2,21 @@
 
 A mini e-commerce application built with Rails 4.2 for purposes of teaching Rails by example.
 
+##  Tech Stack
+
+  * ERB
+  * Ruby on Rails
+  * PostgreSQL
+  * Capybara for testing
+  * RSpec for testing
+  
+# Screenshots
+
+  !["screenshot description"](https://github.com/Varsha2629/Jungle-rails/blob/master/public/images/Home-page.png)
+  !["screenshot description"](https://github.com/Varsha2629/Jungle-rails/blob/master/public/images/Cart-page.png)
+  !["screenshot description"](https://github.com/Varsha2629/Jungle-rails/blob/master/public/images/Signup-page.png)
+  !["screenshot description"](https://github.com/Varsha2629/Jungle-rails/blob/master/public/images/Empty-cart.png)
+  
 ## Additional Steps for Apple M1 Machines
 
 1. Make sure that you are runnning Ruby 2.6.6 (`ruby -v`)
